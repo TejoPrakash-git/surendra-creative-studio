@@ -1,13 +1,13 @@
 import './Contact.css'
 
 const DETAILS = [
-  { label: 'Email', value: 'surendra.creative@gmail.com', href: 'mailto:surendra.creative@gmail.com' },
-  { label: 'Phone / WhatsApp', value: '+91 90000 00000', href: 'tel:+919000000000' },
+  { label: 'Email', value: 'surendradevu1402@gmail.com', href: 'mailto:surendradevu1402@gmail.com' },
+  { label: 'Phone / WhatsApp', value: '+91 9381378002', href: 'tel:+919381378002' },
   { label: 'Location', value: 'Visakhapatnam, Andhra Pradesh, India', href: null },
 ]
 
 const SOCIALS = [
-  { label: 'Instagram', href: 'https://instagram.com/' },
+  { label: 'Instagram', href: 'https://instagram.com/s_design_den' },
   { label: 'YouTube', href: 'https://youtube.com/' },
   { label: 'Behance', href: 'https://behance.net/' },
   { label: 'LinkedIn', href: 'https://linkedin.com/' },
@@ -25,7 +25,7 @@ export default function Contact() {
           </p>
           <a
             className="btn btn-primary contact__whatsapp"
-            href="https://wa.me/919000000000"
+            href="https://wa.me/919381378002"
             target="_blank"
             rel="noopener noreferrer"
           >
