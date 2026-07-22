@@ -7,6 +7,8 @@ const FRAMES = [
   { label: 'Short Film Poster', image: '/images/portfolio4.jpg', tag: 'POSTER' },
   { label: 'Movie Poster', image: '/images/portfolio5.jpg', tag: 'PHOTO' },
   { label: 'YouTube Thumbnail', image: '/images/portfolio6.jpg', tag: 'COVER' },
+  { label: 'Menu-1', image: '/images/portfolio7.jpeg', tag: 'POSTER' },
+  { label: 'Menu-2', image: '/images/portfolio8.jpeg', tag: 'THUMB' },
 ]
 
 function SprocketStrip() {
@@ -44,6 +46,12 @@ export default function Portfolio() {
           ))}
         </div>
         <SprocketStrip />
+      </div>
+
+      <div className="portfolio__action" style={{ textAlign: 'center', marginTop: '40px' }}>
+        <a href="#gallery" className="btn btn-ghost">
+          View Full Gallery
+        </a>
       </div>
     </section>
   )
